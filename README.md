@@ -45,3 +45,7 @@ Latency: Loading and unloading models might introduce latency, which could impac
 Cost of Context Switching: There might be a computational cost associated with saving and restoring state as different layers are activated and deactivated.
 
 This concept parallels some strategies in distributed computing and cloud services, where resources are allocated dynamically based on demand, but applied in the context of AI model architecture. It's a forward-thinking approach that could align well with future advancements in AI deployment, particularly in environments with variable computational workload demands.
+
+### Additional Ideas
+
+The expert layers don't have to run on the same computer as the core model / models. In fact, on a mobile device, it would be beneficial to have the core layer(s) run locally, and have an API to call the expert layers when their assistance is needed.
