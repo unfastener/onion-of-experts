@@ -4,7 +4,7 @@
 
 This is an idea for an efficient design of hierarchical LLMs. I'm publishing this idea here on GitHub, so that there is a public record of it.
 
-Here's the original discussion that started the idea. The discussion was about the differences of corvid and mammal brains:
+Here's the original discussion that sparked the idea. The discussion focused on the differences between corvid and mammal brains:
 
 > Basically, run a "corvid-like" efficient LLM as your main "mind". Then, have layers of larger
 > LLMs around that are dormant, but can be called to action by the small LLM, recursively. The
